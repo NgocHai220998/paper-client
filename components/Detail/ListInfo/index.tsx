@@ -19,7 +19,7 @@ const Transition = React.forwardRef(function Transition(
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export default function ListInfo({ paper }) {
+export default function ListInfo({ paper }: any) {
   const [open, setOpen] = React.useState(false);
   const [currentImage, setCurrentImage] = React.useState("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgP84Y53ZThVoEvr-u8Kf02X6Wrg0WZXpurQ&usqp=CAU");
 

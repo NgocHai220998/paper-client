@@ -12,8 +12,8 @@ export default function Detail() {
 
   const router = useRouter()
   const { type, id } = router.query
-  const [paper, setPaper] = React.useState()
-  const [group, setGroup] = React.useState()
+  const [paper, setPaper] = React.useState<any>()
+  const [group, setGroup] = React.useState<any>()
 
   const fetchPapers = () => {
     fetch(`http://localhost:4000/papers/${id}`, {

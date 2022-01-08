@@ -6,7 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import Order from '../Order';
 
-export default function ListOrder({ paper }) {
+export default function ListOrder({ paper }: any) {
 
   return (
     <Box sx={{ marginTop: '12px' }}>

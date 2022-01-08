@@ -10,7 +10,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import CircularProgress from '@mui/material/CircularProgress';
 
-export default function Order({ paper }) {
+export default function Order({ paper }: any) {
   const [name, setName] = React.useState("");
   const [phone, setPhone] = React.useState("");
   const [open, setOpen] = React.useState(false);
