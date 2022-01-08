@@ -1,0 +1,67 @@
+body {
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -1;
+    background-image: url("./background.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+// Display
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-flex-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.d-flex-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+// Text transfrom
+.t-transform-none {
+  text-transform: none !important;
+}
+
+// Text Align
+.t-align {
+  &-left {
+    text-align: left;
+  }
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+  &-justify {
+    text-align: justify;
+  }
+}
+
+// Over text dot
+.vocabulary-dot {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100px;
+  display: inline-block;
+}

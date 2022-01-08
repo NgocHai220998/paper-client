@@ -1,0 +1,24 @@
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.inner-img {
+  transition: 0.3s;
+  width: 100%;
+}
+
+.inner-img:hover {
+  cursor: pointer;
+  transform: scale(2.1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
+  //border: 1px solid #000;
+}

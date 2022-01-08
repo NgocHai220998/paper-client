@@ -1,0 +1,200 @@
+// Color main
+$primary-light-color: #80deea;
+$primary-main-color: #00bcd4;
+$primary-dark-color: #00838f;
+$secondary-light-color: #ef9a9a;
+$secondary-main-color: #f44336;
+$secondary-dark-color: #c62828;
+$text-light-color: #00000099;
+$text-main-color: #000000de;
+$text-dark-color: #000000;
+$white-color: white;
+$black-main-color: #f3f3f4;
+
+// Box shadow
+$box-shadow-main: 0px 8px 20px rgba(0, 0, 0, 0.085);
+$box-shadow-light: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+  rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+.box-shadow-main {
+  box-shadow: $box-shadow-main !important;
+}
+.hover-box-shadow-main {
+  &:hover {
+    box-shadow: $box-shadow-main !important;
+    cursor: pointer;
+  }
+}
+
+// Text Color
+.t {
+  &-primary-light-color {
+    color: $primary-light-color;
+  }
+  &-primary-main-color {
+    color: $primary-main-color;
+  }
+  &-primary-dark-color {
+    color: $primary-dark-color;
+  }
+  &-secondary-light-color {
+    color: $secondary-light-color;
+  }
+  &-secondary-main-color {
+    color: $secondary-main-color;
+  }
+  &-secondary-dark-color {
+    color: $secondary-dark-color;
+  }
+  &-text-light-color {
+    color: $text-light-color;
+  }
+  &-text-main-color {
+    color: $text-main-color;
+  }
+  &-text-dark-color {
+    color: $text-dark-color;
+  }
+}
+
+// Background Color
+
+.b {
+  &-primary-light-color {
+    background-color: $primary-light-color;
+  }
+  &-primary-main-color {
+    background-color: $primary-main-color;
+  }
+  &-primary-dark-color {
+    background-color: $primary-dark-color;
+  }
+  &-secondary-light-color {
+    background-color: $secondary-light-color;
+  }
+  &-secondary-main-color {
+    background-color: $secondary-main-color;
+  }
+  &-secondary-dark-color {
+    background-color: $secondary-dark-color;
+  }
+  &-text-light-color {
+    background-color: $text-light-color;
+  }
+  &-text-main-color {
+    background-color: $text-main-color;
+  }
+  &-text-dark-color {
+    background-color: $text-dark-color;
+  }
+  &-black-main-color {
+    background-color: $black-main-color;
+  }
+  &-banner-color {
+    background-color: #651f9a;
+  }
+}
+
+// Border Main
+$border-main-width: 3px;
+.border {
+  &-main-width {
+    border-width: $border-main-width;
+  }
+}
+
+// Space Main
+$spacing: 4px;
+$spacing-0: 0px;
+$spacing-1: 4px;
+$spacing-2: 8px;
+$spacing-3: 12px;
+$spacing-4: 16px;
+$spacing-5: 20px;
+$spacing-6: 24px;
+$spacing-7: 28px;
+$spacing-8: 32px;
+$spacing-9: 36px;
+$spacing-10: 40px;
+$spacing-11: 44px;
+$spacing-12: 48px;
+
+// Font size
+$fontsize: 16px;
+$fontsize-8: 8px;
+$fontsize-10: 10px;
+$fontsize-12: 12px;
+$fontsize-13: 13px;
+$fontsize-14: 14px;
+$fontsize-16: 16px;
+$fontsize-18: 18px;
+$fontsize-20: 20px;
+$fontsize-22: 22px;
+$fontsize-24: 24px;
+$fontsize-26: 26px;
+$fontsize-28: 28px;
+$fontsize-30: 30px;
+$fontsize-32: 32px;
+$fontsize-34: 34px;
+$fontsize-36: 36px;
+$fontsize-38: 38px;
+$fontsize-40: 40px;
+
+.fontsize {
+  font-size: 16;
+
+  &-8 {
+    font-size: 8px;
+  }
+  &-10 {
+    font-size: 10px;
+  }
+  &-12 {
+    font-size: 12px;
+  }
+  &-13 {
+    font-size: 13px;
+  }
+  &-14 {
+    font-size: 14px;
+  }
+  &-16 {
+    font-size: 16px;
+  }
+  &-18 {
+    font-size: 18px;
+  }
+  &-20 {
+    font-size: 20px;
+  }
+  &-22 {
+    font-size: 22px;
+  }
+  &-24 {
+    font-size: 24px;
+  }
+  &-26 {
+    font-size: 26px;
+  }
+  &-28 {
+    font-size: 28px;
+  }
+  &-30 {
+    font-size: 30px;
+  }
+  &-32 {
+    font-size: 32px;
+  }
+  &-34 {
+    font-size: 34px;
+  }
+  &-36 {
+    font-size: 36px;
+  }
+  &-38 {
+    font-size: 38px;
+  }
+  &-40 {
+    font-size: 40px;
+  }
+}

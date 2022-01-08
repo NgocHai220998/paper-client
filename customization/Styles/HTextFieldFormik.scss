@@ -1,0 +1,18 @@
+.MuiTextField-root {
+  & p.Mui-error {
+    margin-left: 0px;
+    margin-top: $spacing * 0.5;
+  }
+  & .MuiOutlinedInput-root {
+    &:hover fieldset {
+      border-width: $spacing * 0.5;
+      border-color: $primary-main-color;
+    }
+    &.Mui-error fieldset {
+      border-width: $spacing * 0.5;
+    }
+    &.Mui-focused fieldset {
+      border-width: $border-main-width;
+    }
+  }
+}

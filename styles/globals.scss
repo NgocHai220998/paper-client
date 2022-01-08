@@ -1,0 +1,19 @@
+@import "../customization/Styles/index.scss";
+@import "./footer.scss";
+@import "./detail.scss";
+@import "./list_order.scss";
+
+.hover-box-shadow {
+  &:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
