@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 import { useRouter } from 'next/dist/client/router';
 
-export default function ItemPaper({ paper, type, index }) {
+export default function ItemPaper({ paper, type, index }: any) {
   const router = useRouter()
   return (
     <Grid item lg={3} md={4} sm={12} xs={12}>

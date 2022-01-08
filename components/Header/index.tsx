@@ -98,13 +98,15 @@ export default function SearchAppBar() {
               'aria-labelledby': 'basic-button',
             }}
           >
-            <MenuItem onClick={handleClose} onClick={() => {
+            <MenuItem onClick={() => {
               router.push('/')
             }} >Trang chủ</MenuItem>
-            <MenuItem onClick={handleClose} onClick={() => {
+            <MenuItem onClick={() => {
+              handleClose()
               router.push('/')
             }} >Giới thiệu</MenuItem>
-            <MenuItem onClick={handleClose} onClick={() => {
+            <MenuItem onClick={() => {
+              handleClose()
               router.push('/')
             }} >Liên hệ</MenuItem>
           </Menu>

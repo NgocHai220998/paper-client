@@ -4,7 +4,7 @@ import { List } from './config';
 import ItemPaper from '../ItemPaper';
 import { useRouter } from 'next/dist/client/router';
 
-export default function ListPapers({ group }) {
+export default function ListPapers({ group }: any) {
   const router = useRouter()
   const { type, id } = router.query
   const [papers, setPapers] = React.useState([])

@@ -10,7 +10,7 @@ import ChildFriendlyIcon from '@mui/icons-material/ChildFriendly';
 import { ListPapers } from './config';
 import { useRouter } from 'next/dist/client/router';
 
-export default function SideBar({ group }) {
+export default function SideBar({ group }: any) {
   const router = useRouter()
   const [groups, setGroups] = React.useState([])
 
@@ -54,7 +54,7 @@ export default function SideBar({ group }) {
           {
             groups?.map((item: any, index: number) => {
               return (
-                <ListItem key={index} disablePadding sx={{ borderLeft: handleBorder(item), borderRight: handleBorder(item)}}>
+                <ListItem key={index} disablePadding sx={{ borderLeft: handleBorder(item), borderRight: handleBorder(item) }}>
                   <ListItemButton onClick={() => {
                     router.push(`/${item.id}`)
                   }}>
