@@ -18,12 +18,16 @@ export default function ListOrder({ paper }: any) {
         </Button>
       </Box>
       <Box sx={{ marginBottom: '8px' }}>
-        <Button variant="outlined" startIcon={<ContactPhoneIcon />}>
+        <Button onClick={() => {
+          window.location.href = 'tel:0961576312'
+        }} variant="outlined" startIcon={<ContactPhoneIcon />}>
           0961576312
         </Button>
       </Box>
       <Box sx={{ marginBottom: '8px' }}>
-        <Button variant="outlined" startIcon={<div>Zalo: </div>}>
+        <Button onClick={() => {
+          window.open('https://zalo.me/0961576312', '_blank');
+        }} variant="outlined" startIcon={<div>Zalo: </div>}>
           Liên hệ với tôi
         </Button>
       </Box>

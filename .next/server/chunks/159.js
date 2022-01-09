@@ -77,6 +77,9 @@ function FooterCustom() {
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                             className: "social-icon__item",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_5___default()), {
+                                onClick: ()=>{
+                                    window.location.href = 'tel:0961576312';
+                                },
                                 sx: {
                                     color: 'white'
                                 },
@@ -89,6 +92,9 @@ function FooterCustom() {
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                             className: "social-icon__item",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_5___default()), {
+                                onClick: ()=>{
+                                    window.open('https://zalo.me/0961576312', '_blank');
+                                },
                                 sx: {
                                     color: 'white'
                                 },
@@ -135,16 +141,13 @@ function FooterCustom() {
 /* harmony import */ var _mui_material_InputBase__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_mui_material_InputBase__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(3365);
 /* harmony import */ var _mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _mui_icons_material_Search__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(8017);
-/* harmony import */ var _mui_icons_material_Search__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_Search__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(3819);
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Button__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _mui_material_Menu__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(8125);
-/* harmony import */ var _mui_material_Menu__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Menu__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(9271);
-/* harmony import */ var _mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var next_dist_client_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(387);
-
+/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(3819);
+/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Button__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _mui_material_Menu__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(8125);
+/* harmony import */ var _mui_material_Menu__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Menu__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(9271);
+/* harmony import */ var _mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var next_dist_client_router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(387);
 
 
 
@@ -202,7 +205,7 @@ const StyledInputBase = (0,_mui_material_styles__WEBPACK_IMPORTED_MODULE_2__.sty
     })
 );
 function SearchAppBar() {
-    const router = (0,next_dist_client_router__WEBPACK_IMPORTED_MODULE_14__.useRouter)();
+    const router = (0,next_dist_client_router__WEBPACK_IMPORTED_MODULE_13__.useRouter)();
     const [anchorEl, setAnchorEl] = react__WEBPACK_IMPORTED_MODULE_1___default().useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event)=>{
@@ -219,7 +222,7 @@ function SearchAppBar() {
             position: "static",
             children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((_mui_material_Toolbar__WEBPACK_IMPORTED_MODULE_5___default()), {
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_11___default()), {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_10___default()), {
                         id: "basic-button",
                         "aria-controls": open ? 'basic-menu' : undefined,
                         "aria-haspopup": "true",
@@ -244,7 +247,7 @@ function SearchAppBar() {
                             })
                         })
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((_mui_material_Menu__WEBPACK_IMPORTED_MODULE_12___default()), {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((_mui_material_Menu__WEBPACK_IMPORTED_MODULE_11___default()), {
                         id: "basic-menu",
                         anchorEl: anchorEl,
                         open: open,
@@ -253,20 +256,20 @@ function SearchAppBar() {
                             'aria-labelledby': 'basic-button'
                         },
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_13___default()), {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12___default()), {
                                 onClick: ()=>{
                                     router.push('/');
                                 },
                                 children: "Trang chủ"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_13___default()), {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12___default()), {
                                 onClick: ()=>{
                                     handleClose();
                                     router.push('/');
                                 },
                                 children: "Giới thiệu"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_13___default()), {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12___default()), {
                                 onClick: ()=>{
                                     handleClose();
                                     router.push('/');
@@ -275,7 +278,7 @@ function SearchAppBar() {
                             })
                         ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_11___default()), {
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_10___default()), {
                         onClick: ()=>{
                             router.push('/');
                         },
@@ -303,7 +306,7 @@ function SearchAppBar() {
                             flexGrow: 1,
                             textAlign: 'center'
                         },
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_11___default()), {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_10___default()), {
                             variant: "text",
                             sx: {
                                 color: 'white'
@@ -327,7 +330,7 @@ function SearchAppBar() {
                             }
                         },
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_11___default()), {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_10___default()), {
                                 variant: "text",
                                 sx: {
                                     color: 'white'
@@ -337,7 +340,7 @@ function SearchAppBar() {
                                 },
                                 children: "Giới thiệu"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_11___default()), {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_material_Button__WEBPACK_IMPORTED_MODULE_10___default()), {
                                 variant: "text",
                                 sx: {
                                     color: 'white'
@@ -346,20 +349,6 @@ function SearchAppBar() {
                                     router.push('/');
                                 },
                                 children: "Li\xean hệ"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(Search, {
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(SearchIconWrapper, {
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_Search__WEBPACK_IMPORTED_MODULE_10___default()), {
-                                })
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(StyledInputBase, {
-                                placeholder: "T\xecm kiếm (Chưa sử dụng được)",
-                                inputProps: {
-                                    'aria-label': 'T\xecm kiếm (Chưa sử dụng được)'
-                                }
                             })
                         ]
                     })

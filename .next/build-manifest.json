@@ -5,37 +5,37 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/Dyb2a7Ib6X6C6sNMCvXQD/_buildManifest.js",
-    "static/Dyb2a7Ib6X6C6sNMCvXQD/_ssgManifest.js",
-    "static/Dyb2a7Ib6X6C6sNMCvXQD/_middlewareManifest.js"
+    "static/UGP7O4D82hCnaJdqRy3NY/_buildManifest.js",
+    "static/UGP7O4D82hCnaJdqRy3NY/_ssgManifest.js",
+    "static/UGP7O4D82hCnaJdqRy3NY/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-8957c350a55da097.js",
       "static/chunks/main-7a5ae73f0e3e91d3.js",
-      "static/chunks/509-70895b165c4e48af.js",
+      "static/chunks/811-ac2c4d85530e4d42.js",
       "static/chunks/139-9ba59f5aada7f83f.js",
-      "static/chunks/159-9e2edfe84ec2ef87.js",
-      "static/chunks/pages/index-3c377a1508ba41f2.js"
+      "static/chunks/159-2f0f5de3974e4e4b.js",
+      "static/chunks/pages/index-4aafc2d00300b153.js"
     ],
     "/[type]": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-8957c350a55da097.js",
       "static/chunks/main-7a5ae73f0e3e91d3.js",
-      "static/chunks/509-70895b165c4e48af.js",
-      "static/chunks/159-9e2edfe84ec2ef87.js",
-      "static/chunks/pages/[type]-2ec0a4f12a15e103.js"
+      "static/chunks/811-ac2c4d85530e4d42.js",
+      "static/chunks/159-2f0f5de3974e4e4b.js",
+      "static/chunks/pages/[type]-c161ad412aae9fe2.js"
     ],
     "/[type]/[id]": [
       "static/chunks/webpack-514908bffb652963.js",
       "static/chunks/framework-8957c350a55da097.js",
       "static/chunks/main-7a5ae73f0e3e91d3.js",
-      "static/chunks/509-70895b165c4e48af.js",
+      "static/chunks/811-ac2c4d85530e4d42.js",
       "static/chunks/139-9ba59f5aada7f83f.js",
       "static/chunks/95-24155eaa9d3ce4f9.js",
-      "static/chunks/159-9e2edfe84ec2ef87.js",
-      "static/chunks/pages/[type]/[id]-2f7ad82a77dcdaef.js"
+      "static/chunks/159-2f0f5de3974e4e4b.js",
+      "static/chunks/pages/[type]/[id]-e462807e161bfb21.js"
     ],
     "/_app": [
       "static/chunks/webpack-514908bffb652963.js",

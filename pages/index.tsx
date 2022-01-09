@@ -89,12 +89,16 @@ const Home: NextPage = () => {
                 </Button>
               </li>
               <li className="social-icon__item">
-                <Button sx={{ marginBottom: '32px' }} variant="outlined" startIcon={<ContactPhoneIcon />}>
+                <Button onClick={() => {
+                  window.location.href = 'tel:0961576312'
+                }} sx={{ marginBottom: '32px' }} variant="outlined" startIcon={<ContactPhoneIcon />}>
                   0961576312
                 </Button>
               </li>
               <li className="social-icon__item">
-                <Button sx={{ color: 'white', marginBottom: '32px' }} variant="contained" startIcon={<div>Zalo: </div>}>
+                <Button onClick={() => {
+                  window.open('https://zalo.me/0961576312', '_blank');
+                }} sx={{ color: 'white', marginBottom: '32px' }} variant="contained" startIcon={<div>Zalo: </div>}>
                   Liên hệ với tôi
                 </Button>
               </li>

@@ -135,7 +135,7 @@ export default function SearchAppBar() {
               router.push('/')
             }} >Liên hệ</Button>
           </Box>
-          <Search>
+          {/* <Search>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
@@ -143,7 +143,7 @@ export default function SearchAppBar() {
               placeholder="Tìm kiếm (Chưa sử dụng được)"
               inputProps={{ 'aria-label': 'Tìm kiếm (Chưa sử dụng được)' }}
             />
-          </Search>
+          </Search> */}
         </Toolbar>
       </AppBar>
     </Box>
