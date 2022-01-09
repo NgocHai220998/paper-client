@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   const [group, setGroup] = React.useState()
 
   const fetchPapers = () => {
-    fetch(`http://localhost:4000/groups/${type}`, {
+    fetch(`https://admin.hainn.dev/groups/${type}`, {
       method: 'GET'
     }).then(ress => ress.json())
       .then(res => {

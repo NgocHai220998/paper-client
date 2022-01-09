@@ -16,7 +16,7 @@ export default function Detail() {
   const [group, setGroup] = React.useState<any>()
 
   const fetchPapers = () => {
-    fetch(`http://localhost:4000/papers/${id}`, {
+    fetch(`https://admin.hainn.dev/papers/${id}`, {
       method: 'GET'
     }).then(ress => ress.json())
       .then(res => {

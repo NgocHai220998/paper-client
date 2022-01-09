@@ -37,7 +37,7 @@ export default function Order({ paper }: any) {
       }
     })
 
-    fetch("http://localhost:4000/orders", {
+    fetch("https://admin.hainn.dev/orders", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

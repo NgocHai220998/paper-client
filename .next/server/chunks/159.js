@@ -461,7 +461,7 @@ function ListPapers({ group  }) {
     const { type , id  } = router.query;
     const [papers, setPapers] = external_react_.useState([]);
     const fetchPapers = ()=>{
-        fetch(`http://localhost:4000/groups/${type ? type : 1}`, {
+        fetch(`https://admin.hainn.dev/groups/${type ? type : 1}`, {
             method: 'GET'
         }).then((ress)=>ress.json()
         ).then((res)=>{
@@ -551,7 +551,7 @@ function SideBar({ group  }) {
     const router = (0,next_dist_client_router__WEBPACK_IMPORTED_MODULE_10__.useRouter)();
     const [groups, setGroups] = react__WEBPACK_IMPORTED_MODULE_1__.useState([]);
     const fetchGroups = ()=>{
-        fetch("http://localhost:4000/groups", {
+        fetch("https://admin.hainn.dev/groups", {
             method: 'GET'
         }).then((ress)=>ress.json()
         ).then((res)=>{

@@ -10,7 +10,7 @@ export default function ListPapers({ group }: any) {
   const [papers, setPapers] = React.useState([])
 
   const fetchPapers = () => {
-    fetch(`http://localhost:4000/groups/${type ? type : 1}`, {
+    fetch(`https://admin.hainn.dev/groups/${type ? type : 1}`, {
       method: 'GET'
     }).then(ress => ress.json())
       .then(res => {

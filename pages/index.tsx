@@ -37,7 +37,7 @@ const Home: NextPage = () => {
       }
     })
 
-    fetch("http://localhost:4000/orders", {
+    fetch("https://admin.hainn.dev/orders", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
   const [groups, setGroups] = React.useState([])
 
   const fetchGroups = () => {
-    fetch("http://localhost:4000/groups", {
+    fetch("https://admin.hainn.dev/groups", {
       method: 'GET'
     }).then(ress => ress.json())
       .then(res => {
