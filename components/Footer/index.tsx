@@ -18,8 +18,8 @@ export default function FooterCustom() {
         <ul className="social-icon">
           <li className="social-icon__item">
             <Button onClick={() => {
-          window.open('https://www.facebook.com/profile.php?id=100005944332960', '_blank');
-        }} sx={{ color: 'white' }} variant="outlined" startIcon={<FacebookIcon />}>
+              window.open('https://www.facebook.com/profile.php?id=100005944332960', '_blank');
+            }} sx={{ color: 'white' }} variant="outlined" startIcon={<FacebookIcon />}>
               Facebook
             </Button>
           </li>
@@ -34,14 +34,6 @@ export default function FooterCustom() {
             </Button>
           </li>
         </ul>
-        <ul className="menu">
-          <li className="menu__item">
-            <Button variant="text" sx={{ color: 'white' }}>Trang chủ</Button>
-            <Button variant="text" sx={{ color: 'white' }}>Giới thiệu</Button>
-            <Button variant="text" sx={{ color: 'white' }}>Liên hệ</Button>
-          </li>
-        </ul>
-        <p>&copy;2022 GIẤY DÁN TƯỜNG HÀN QUỐC | TUẤN ANH</p>
       </footer>
     </Box>
   );
